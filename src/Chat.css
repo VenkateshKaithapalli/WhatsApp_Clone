@@ -1,0 +1,95 @@
+.chart {
+  flex: 0.65;
+  display: flex;
+  flex-direction: column;
+}
+
+.chart_header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+}
+.chart_info {
+  flex: 1;
+  padding-left: 20px;
+}
+.chart_info > h2 {
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+
+.chart_info > p {
+  color: grey;
+}
+.chart_headerRight {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100px;
+}
+
+.chart_body {
+  flex: 1;
+  background-image: url("https://w0.peakpx.com/wallpaper/154/372/HD-wallpaper-telegram-background-whatsapp-creative-android-pattern-texture-abstract.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  padding: 30px;
+  overflow-y: scroll;
+}
+/* .chart_body::-webkit-scrollbar {
+	display: none;
+  } */
+.chart_msg {
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+}
+
+.chat_name {
+  position: absolute;
+  top: -15px;
+  font-weight: 800;
+  font-size: xx-small;
+}
+
+.chat_time {
+  margin-left: 10px;
+  font-size: xx-small;
+}
+
+.chat_receiver {
+  margin-left: auto;
+  background-color: #dcf8c6;
+}
+
+.chart_footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 62px;
+	border-top: 1px solid lightgray;
+}
+.chart_footer >form{
+	flex: 1;
+	display: flex;
+}
+.chart_footer>form>input{
+	flex:1;
+	border-radius: 30px;
+	padding: 10px;
+	border: none;
+}
+.chart_footer>form>button{
+	display: none;
+}
+
+.chart_footer > .MuiSvgIcon-root {
+	color: grey;
+	padding: 10px;
+  }
+
+
